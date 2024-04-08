@@ -1,0 +1,9 @@
+type {
+    featuredPlaylist:[PlayList!]!
+}
+
+type PlayList {
+  id: ID!
+  name: String!
+  description: String
+}

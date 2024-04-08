@@ -4,6 +4,7 @@
   "description": "The starter code for the Odyssey Intro to GraphQL with TypeScript course",
   "version": "0.0.0",
   "license": "MIT",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/apollographql-education/intro-typescript"
@@ -20,7 +21,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "@apollo/datasource-rest": "^6.2.2",
+    "@apollo/server": "^4.10.2",
     "@parcel/watcher": "^2.4.0",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6",
     "yarn": "^1.22.22"
   },
   "devDependencies": {
